@@ -75,7 +75,7 @@ class LivroController extends Livro {
     }
 
     /**
-     * Remove um livro.
+     * Remove o livro
      */
     static async remover(req: Request, res: Response): Promise<Response> {
         try {
